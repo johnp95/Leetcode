@@ -1,3 +1,5 @@
+# O(n) Time & Space Complexity
+
 from collections import Counter
 
 def containsDuplicate(nums):
