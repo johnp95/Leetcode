@@ -2,3 +2,4 @@ __pycache__
 testCases.py
 test.py
 test2.py
+my_connection.session.sql
