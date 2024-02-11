@@ -4,7 +4,6 @@ def topKFrequent(nums,k):
   
     count = Counter(nums)
     freq = [[] for _ in range(len(nums) + 1)]
-    print(freq)
 
     for n,c in count.items():
         freq[c].append(n)
@@ -14,6 +13,6 @@ def topKFrequent(nums,k):
             res.append(n)
             if len(res) == k:
                 return res
-nums = [1,1,1,2,2,3,8,8,8,8,8,8]
+nums = [1,1,1,2,2,2,3]
 k = 2
 print(topKFrequent(nums,k))
